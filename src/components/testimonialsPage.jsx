@@ -141,7 +141,7 @@ const TestimonialsPage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
-        
+
       <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-red-600 to-red-700">
         <div className="max-w-7xl mx-auto pt-16">
           <div className="text-center text-white">
@@ -352,6 +352,6 @@ const TestimonialsPage = () => {
     </div>
   );
 };
-
+ 
 export default TestimonialsPage;
 
