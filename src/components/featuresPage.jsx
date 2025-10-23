@@ -198,17 +198,6 @@ const FeaturesPage = () => {
     }
   ];
 
-  const getColorClasses = (color) => {
-    const colors = {
-      red: "bg-red-50 border-red-200 text-red-600",
-      blue: "bg-blue-50 border-blue-200 text-blue-600",
-      green: "bg-green-50 border-green-200 text-green-600",
-      purple: "bg-purple-50 border-purple-200 text-purple-600",
-      yellow: "bg-yellow-50 border-yellow-200 text-yellow-600",
-      indigo: "bg-indigo-50 border-indigo-200 text-indigo-600"
-    };
-    return colors[color] || colors.red;
-  };
 
   return (
     <div className="min-h-screen bg-gray-50">

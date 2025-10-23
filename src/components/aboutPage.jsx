@@ -3,18 +3,11 @@ import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 
 import { 
-  FaArrowLeft, 
   FaShieldAlt, 
   FaGlobe, 
   FaUsers, 
-  FaAward, 
   FaLock, 
-  FaRocket, 
   FaHeart,
-  FaEye,
-  FaHandshake,
-  FaCog,
-  FaChartLine,
   FaServer,
   FaMapMarkerAlt,
   FaClock,

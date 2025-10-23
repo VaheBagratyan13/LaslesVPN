@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { Link } from 'react-router-dom';
-import { FaArrowLeft, FaCheck, FaShieldAlt, FaGlobe, FaLock, FaRocket, FaCrown, FaBuilding } from 'react-icons/fa';
+import { FaCheck, FaShieldAlt, FaGlobe, FaLock, FaRocket, FaCrown, FaBuilding } from 'react-icons/fa';
 import Navbar from './Navbar';      
 const PricingPage = () => {
     const [billingCycle, setBillingCycle] = useState('monthly');

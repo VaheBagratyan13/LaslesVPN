@@ -10,8 +10,7 @@ import {
   FaPlay,
   FaThumbsUp,
   FaShieldAlt,
-  FaRocket,
-  FaGlobe
+  FaRocket
 } from 'react-icons/fa';
 
 const TestimonialsPage = () => {

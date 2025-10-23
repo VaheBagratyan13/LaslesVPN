@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const Navbar = ({triggerAnimation}) => {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [animKey, setAnimKey] = useState(false);
 
   const navbarItems = [
     { name: "About", href: "/about" },
@@ -23,11 +22,6 @@ const Navbar = ({triggerAnimation}) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  useEffect(() => {
-    if (triggerAnimation) {
-      setAnimKey(true);
-    }
-  }, [triggerAnimation]);
 
   return (
     <nav className="w-full fixed top-0 left-0 z-50 bg-white shadow-md transition-all duration-300">

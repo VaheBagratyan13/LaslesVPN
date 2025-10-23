@@ -261,11 +261,11 @@ const SignUpPage = () => {
                             <div className="ml-3 text-sm">
                                 <label htmlFor="terms" className="text-gray-600">
                                     I agree to the{' '}
-                                    <a href="#" className="text-red-600 hover:text-red-500 font-medium">
+                                    <a href="/terms" className="text-red-600 hover:text-red-500 font-medium">
                                         Terms of Service
                                     </a>{' '}
                                     and{' '}
-                                    <a href="#" className="text-red-600 hover:text-red-500 font-medium">
+                                    <a href="/privacy" className="text-red-600 hover:text-red-500 font-medium">
                                         Privacy Policy
                                     </a>
                                 </label>

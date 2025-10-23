@@ -1,5 +1,4 @@
 import { FaStar, FaArrowRight, FaThumbsUp, FaShare } from "react-icons/fa";
-import FooterPage from "./subscribePage";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 const CommentPage = () => {
