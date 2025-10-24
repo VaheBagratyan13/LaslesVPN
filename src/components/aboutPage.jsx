@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import FootPage from './about/footPage';
 import StatsPage from './about/statsPage';
@@ -14,8 +13,7 @@ import {
   FaHeart,
   FaServer,
   FaMapMarkerAlt,
-  FaClock,
-  FaCheckCircle
+  FaClock
 } from 'react-icons/fa';
 const AboutPage = () => {
   const [showElements, setShowElements] = useState(false);

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import PowerfulPage from './features/powerfulPage';
 import SecurityPage from './features/securityPage';
@@ -10,7 +9,6 @@ import ActionVpnPage from './features/actionVpnPage';
 import FootPage from './features/footPage';
 const FeaturesPage = () => {
   const [showElements, setShowElements] = useState(false);
-  const [isConnected, setIsConnected] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => setShowElements(true), 300);

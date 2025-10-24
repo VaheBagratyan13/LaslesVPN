@@ -1,4 +1,4 @@
-import { FaQuoteLeft, FaQuoteRight, FaChevronLeft, FaChevronRight, FaShieldAlt, FaStar } from 'react-icons/fa'; 
+import { FaQuoteLeft, FaQuoteRight, FaChevronLeft, FaChevronRight, FaShieldAlt } from 'react-icons/fa'; 
     const FeaturedPage = ({ showElements, testimonials, currentTestimonial, nextTestimonial, prevTestimonial, renderStars }) => {
     return (
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
