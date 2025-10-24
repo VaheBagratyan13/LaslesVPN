@@ -1,11 +1,11 @@
 import Navbar from './components/Navbar';
-import FirstPage from './components/FirstPage';
-import NotebookPage from './components/notebookPage';
-import PlanPage from './components/PlanPage';
-import MapPage from './components/mapPage';
-import CommentPage from './components/commentPage';
-import SubscribePage from './components/subscribePage';
-import FooterPage from './components/footerPage';
+import FirstPage from './components/homePage/FirstPage';
+import NotebookPage from './components/homePage/notebookPage';
+import PlanPage from './components/homePage/PlanPage';
+import MapPage from './components/homePage/mapPage';
+import CommentPage from './components/homePage/commentPage';
+import SubscribePage from './components/homePage/subscribePage';
+import FooterPage from './components/homePage/footerPage';
 import './App.css';
 
 function App() {

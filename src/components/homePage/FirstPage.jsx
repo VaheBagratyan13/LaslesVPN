@@ -1,6 +1,6 @@
 import { FaUser, FaMapMarkerAlt, FaServer } from "react-icons/fa";
 import React, { useState, useEffect } from "react";
-import Navbar from "./Navbar";
+import Navbar from "../Navbar";
 import { Link } from "react-router-dom";
 const FirstPage = () => {
   const [triggerNavAnim, setTriggerNavAnim] = useState(false);
