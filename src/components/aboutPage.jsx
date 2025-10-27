@@ -80,15 +80,15 @@ const AboutPage = () => {
     <div className="min-h-screen bg-gray-50">
         <Navbar />  
 
-    <StatsPage showElements={showElements} stats={stats} />
+        <StatsPage showElements={showElements} stats={stats} />
 
-    <OurStoryPage showElements={showElements} />
+        <OurStoryPage showElements={showElements} />
 
-    <OurValuesPage showElements={showElements} values={values} />
+        <OurValuesPage showElements={showElements} values={values} />
+    
+        <TeamPage showElements={showElements} />
 
-    <TeamPage showElements={showElements} />
-
-    <FootPage showElements={showElements} />
+        <FootPage showElements={showElements} />
     </div>
   );
 };
