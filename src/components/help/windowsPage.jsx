@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FaComments, FaEnvelope, FaBook, FaVideo, FaExclamationTriangle, FaCheckCircle, FaChevronUp, FaChevronDown } from 'react-icons/fa';
 const WindowsPage = ({ showElements }) => {
-    const [searchQuery, setSearchQuery] = useState('');
+    const [searchQuery] = useState('');
     const [expandedFaq, setExpandedFaq] = useState(null);
     const [activeTab, setActiveTab] = useState('getting-started');
   
