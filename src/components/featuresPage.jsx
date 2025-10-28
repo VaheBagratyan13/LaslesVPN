@@ -30,6 +30,7 @@ const FeaturesPage = () => {
       <ProtocolsPage showElements={showElements} />
 
       <ActionVpnPage showElements={showElements} />
+      
       <FootPage showElements={showElements} />
     </div>
   );
