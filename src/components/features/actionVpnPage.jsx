@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 const ActionVpnPage = ({ showElements }) => {
     const [isConnected, setIsConnected] = useState(false);
     return (

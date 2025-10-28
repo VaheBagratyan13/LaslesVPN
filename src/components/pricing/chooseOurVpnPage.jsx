@@ -1,3 +1,4 @@
+import React from 'react';
 import { FaLock, FaGlobe, FaShieldAlt } from 'react-icons/fa';
 const ChooseOurVpnPage = () => {  
     const features = [

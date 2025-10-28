@@ -1,3 +1,5 @@
+import React from 'react';
+
 const PowerfulPage = () => {
     return (
         <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-red-600 to-red-700">

@@ -42,8 +42,8 @@
 // };
 
 // export default NotebookPage;
+import React, { useState, useEffect } from "react";
 import { FaCheckCircle } from "react-icons/fa";
-import { useState, useEffect } from "react";
 const NotebookPage = () => {
   const [showElements, setShowElements] = useState(false);
   const features = [

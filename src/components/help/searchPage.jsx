@@ -1,5 +1,5 @@
+import React, { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
-import { useState } from 'react';
 const SearchPage = ({ showElements }) => {
     const [searchQuery, setSearchQuery] = useState('');
     return (

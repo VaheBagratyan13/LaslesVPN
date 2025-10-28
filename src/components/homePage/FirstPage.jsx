@@ -80,8 +80,8 @@ const FirstPage = () => {
         </div>
 
         <div className={`col-span-1 md:col-span-2 bg-white flex flex-col md:flex-row justify-center items-center gap-4 md:gap-16 shadow-lg p-4 md:p-6 rounded-lg mt-8 w-full transition-all duration-700 transform delay-800 ${showElements ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
-        {items.map((item) => (
-          <div className="flex flex-col items-center gap-1 md:gap-2 hover:scale-105 transform transition-transform duration-300 md:border-r-2 md:pr-4 border-gray-200 w-full md:w-auto py-2">
+        {items.map((item, index) => (
+          <div key={index} className="flex flex-col items-center gap-1 md:gap-2 hover:scale-105 transform transition-transform duration-300 md:border-r-2 md:pr-4 border-gray-200 w-full md:w-auto py-2">
             {item.fa}
             <p className="text-sm sm:text-md md:text-lg font-semibold">{item.value}</p>
             <p className="text-xs sm:text-sm md:text-sm text-gray-600">{item.description}</p>

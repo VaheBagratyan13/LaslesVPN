@@ -1,5 +1,5 @@
+import React, { useState, useEffect } from "react";
 import { FaStar, FaArrowRight, FaThumbsUp, FaShare } from "react-icons/fa";
-import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 const CommentPage = () => {
     const [showElements, setShowElements] = useState(false);

@@ -1,3 +1,5 @@
+import React from 'react';
+
 const YourPlanPage = ({ billingCycle, setBillingCycle }) => {
     return (
         <div className="text-center mb-16">

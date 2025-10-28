@@ -1,3 +1,4 @@
+import React from 'react';
 import { FaQuoteLeft, FaQuoteRight, FaChevronLeft, FaChevronRight, FaShieldAlt } from 'react-icons/fa'; 
     const FeaturedPage = ({ showElements, testimonials, currentTestimonial, nextTestimonial, prevTestimonial, renderStars }) => {
     return (
