@@ -191,7 +191,7 @@ const SignInPage = () => {
 
                             <div className="text-sm">
                                 <Link to="/forgot-password" className="font-medium text-red-600 hover:text-red-500 transition-colors duration-200">
-                                    Forgot password?
+                                    Forgot password ?
                                 </Link>
                             </div>
                         </div>
