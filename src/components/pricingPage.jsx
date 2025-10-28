@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { FaCheck, FaShieldAlt, FaGlobe, FaLock, FaRocket, FaCrown, FaBuilding } from 'react-icons/fa';
+import { FaCheck, FaShieldAlt, FaRocket, FaCrown, FaBuilding } from 'react-icons/fa';
 import Navbar from './Navbar';      
 import ChooseOurVpnPage from './pricing/chooseOurVpnPage';
 import AskedPage from './pricing/askedPage';
