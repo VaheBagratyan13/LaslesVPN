@@ -67,7 +67,7 @@ const CommentPage = () => {
                 ))}
             </div>
             
-            {/* Call to Action Section */}
+            
             <div className={`mt-16 text-center transition-all duration-700 ease-out transform ${showElements ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                     Ready to Share Your Experience?
