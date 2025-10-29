@@ -56,12 +56,6 @@
   "overrides": {
     "ajv-keywords": {
       "ajv": "^8.17.1"
-    },
-    "schema-utils>ajv-keywords": {
-      "ajv": "^8.17.1"
-    },
-    "babel-loader>schema-utils>ajv-keywords": {
-      "ajv": "^8.17.1"
     }
   }
 }
