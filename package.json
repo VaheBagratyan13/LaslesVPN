@@ -17,7 +17,8 @@
     "test": "craco test",
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "postinstall": "node fix-ajv.js"
   },
   "browserslist": {
     "production": [
@@ -34,6 +35,7 @@
   "devDependencies": {
     "@craco/craco": "^7.1.0",
     "@eslint/js": "^9.38.0",
+    "ajv": "^8.17.1",
     "autoprefixer": "^10.4.21",
     "buffer": "^6.0.3",
     "eslint": "^9.38.0",
