@@ -24,7 +24,7 @@ import { Link } from "react-router-dom";
         <section className="min-h-screen bg-gray-100 w-full px-4 sm:px-6 md:px-16 flex flex-col justify-center items-center py-8">
             <div className="flex flex-col justify-center items-center gap-8 mb-8">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-snug text-center">Choose Your Plan</h1>
-                <p className="text-sm sm:text-md md:text-lg text-gray-700 text-center">Lets's choose the package that is best for you and explore it</p>
+                <p className="text-sm sm:text-md md:text-lg text-gray-700 text-center">Let&apos;s choose the package that is best for you and explore it</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 items-stretch w-full max-w-6xl">
                 {plans.map((plan) => (

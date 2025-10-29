@@ -30,7 +30,7 @@ const FeedBackPage = ({ showElements, testimonials, renderStars }) => {
                   {renderStars(testimonial.rating)}
                 </div>
                 
-                <p className="text-gray-700 mb-4 italic">"{testimonial.comment}"</p>
+                <p className="text-gray-700 mb-4 italic">&ldquo;{testimonial.comment}&rdquo;</p>
                 
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-gray-500">{testimonial.location}</span>

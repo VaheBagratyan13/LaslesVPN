@@ -1,5 +1,5 @@
     import { FaDownload, FaRocket, FaGlobe } from 'react-icons/fa';
-    const QuickPage = ({ showElements }) => {
+    const QuickPage = () => {
     const quickStartSteps = [
         {
           icon: <FaDownload className="text-2xl text-red-600" />,

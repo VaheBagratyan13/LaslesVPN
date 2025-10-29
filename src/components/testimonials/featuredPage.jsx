@@ -31,7 +31,7 @@ import { FaQuoteLeft, FaQuoteRight, FaChevronLeft, FaChevronRight, FaShieldAlt }
                 </div>
                 
                 <blockquote className="text-lg md:text-xl text-gray-700 mb-6 italic">
-                  "{testimonials[currentTestimonial].comment}"
+                  &ldquo;{testimonials[currentTestimonial].comment}&rdquo;
                 </blockquote>
                 
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between">

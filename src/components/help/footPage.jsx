@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-const FootPage = ({ showElements }) => {
+const FootPage = () => {
     return (
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-red-600">
         <div className="max-w-4xl mx-auto text-center">

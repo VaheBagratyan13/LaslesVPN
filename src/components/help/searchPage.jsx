@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
-const SearchPage = ({ showElements }) => {
+const SearchPage = () => {
     const [searchQuery, setSearchQuery] = useState('');
     return (
         <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-red-600 to-red-700">

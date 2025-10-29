@@ -7,8 +7,8 @@ const StatsPage = ({ showElements, stats }) => {
               About <span className="text-red-600">LaslesVPN</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're on a mission to make the internet a safer, more private place for everyone. 
-              Since 2020, we've been protecting users worldwide with cutting-edge VPN technology.
+              We&apos;re on a mission to make the internet a safer, more private place for everyone. 
+              Since 2020, we&apos;ve been protecting users worldwide with cutting-edge VPN technology.
             </p>
           </div>
 

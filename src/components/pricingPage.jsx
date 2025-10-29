@@ -79,7 +79,7 @@ const PricingPage = () => {
         }
     ];
 
-    const getColorClasses = (color, isPopular) => {
+    const getColorClasses = (color) => {
         const colors = {
             blue: {
                 bg: 'bg-blue-50',
@@ -110,9 +110,9 @@ const PricingPage = () => {
             
                 <YourPlanPage billingCycle={billingCycle} setBillingCycle={setBillingCycle} />
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-                    {pricingPlans.map((plan, index) => {
+                    {pricingPlans.map((plan) => {
                         const IconComponent = plan.icon;
-                        const colorClasses = getColorClasses(plan.color, plan.popular);
+                        const colorClasses = getColorClasses(plan.color);
                         const price = billingCycle === 'monthly' ? plan.monthlyPrice : plan.yearlyPrice;
                         const originalPrice = billingCycle === 'yearly' ? plan.monthlyPrice * 12 : null;
                         const savings = billingCycle === 'yearly' ? originalPrice - plan.yearlyPrice : 0;

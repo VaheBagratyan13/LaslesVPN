@@ -15,7 +15,7 @@ const OurStoryPage = ({ showElements }) => {
               </p>
               <p className="text-lg text-gray-600 mb-6">
                 What started as a small team of privacy advocates has grown into a global movement, 
-                protecting over 1 million users across 90+ countries. We've never wavered from our core mission: 
+                protecting over 1 million users across 90+ countries. We&apos;ve never wavered from our core mission: 
                 making the internet a safer place for everyone.
               </p>
               <div className="flex items-center gap-4">
